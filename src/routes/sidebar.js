@@ -83,13 +83,13 @@ const routes = [
     icon: <UserIcon className={`${iconClasses} inline` }/>, // icon component
     name: 'Account Management', // name that appear in Sidebar
     submenu : [
+      // {
+      //   path: '/login',
+      //   icon: <ArrowRightOnRectangleIcon className={submenuIconClasses}/>,
+      //   name: 'Login',
+      // },
       {
-        path: '/login',
-        icon: <ArrowRightOnRectangleIcon className={submenuIconClasses}/>,
-        name: 'Login',
-      },
-      {
-        path: '/register', //url
+        path: '/app/add-user', //url
         icon: <UserIcon className={submenuIconClasses}/>, // icon component
         name: 'Register', // name that appear in Sidebar
       },
